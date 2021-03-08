@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inventorymanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InventoryManager">
+        <activity android:name=".Section2.UpdateStatus"></activity>
+        <activity android:name=".Section2.deleteitemRegistry" />
+        <activity android:name=".Section2.Registry" />
+        <activity android:name=".Section2.final_cart" />
+        <activity android:name=".Section2.Cart" />
+        <activity android:name=".Section1.delete_item" />
+        <activity android:name=".Section2.SelectProduct" />
+        <activity android:name=".Section2.CustomerOrders" />
+        <activity android:name=".Section1.additem" />
+        <activity android:name=".Section2.orderpage2" />
+        <activity android:name=".Section1.Product_details" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Section1.stocklist_page" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
